@@ -46,7 +46,6 @@ export default class extends React.Component {
 	}
 	render() {
 		const { isLoading, temp, condition } = this.state;
-		console.log(condition);
 		return isLoading ? (
 			<Loading />
 		) : (
